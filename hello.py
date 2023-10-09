@@ -28,7 +28,6 @@ language = os.getenv("LANG", "en_US")[:5]
 msg_en = "Hello, Python!"
 msg_pt = "Olá, Python!"
 
-
 if language == "en_US":
     # Exibir texto
     print(msg_en)
